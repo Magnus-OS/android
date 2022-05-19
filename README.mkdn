@@ -1,63 +1,58 @@
------------------------------------------------------------------------------
+<hr>
 <div align="center">
-<img src="https://github.com/ProjectSakura/SakuraDocs/blob/master/assets/header.png?raw=true"> 
-<br>
-<br>
-<strong><i>A Custom ROM based on Lineage OS.</i></strong>
-<br>
-<br>
-<a href="https://sourceforge.net/projects/projectsakura/">
-<img src="https://img.shields.io/sourceforge/dt/projectsakura?style=for-the-badge">
+<a href="https://github.com/Magnus-OS">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Magnus OS"> 
 </a>
-<a href="https://github.com/ProjectSakura/Bug_Tracker">
-<img src="https://img.shields.io/github/issues/ProjectSakura/Bug_Tracker?style=for-the-badge">
+<hr>
+
+<a href="">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
 </a>
-<a href="https://t.me/ProjectSakura">
-<img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge">
-</div>
 
------------------------------------------------------------------------------
+[**ProjectSakura**](https://github.com/ProjectSakura)
+<br>
+[**AOSP**](https://android.googlesource.com)
+<br>
+[**LineageOS**](https://github.com/LineageOS)
+<br>
+[**CrDroid**](https://github.com/crdroidandroid)
+<br>
+[**AOSiP**](https://github.com/AOSiP)
+<br>
+[**DerpFest**](https://github.com/DerpLab)
+<br>
+[**Superior OS**](https://github.com/SuperiorOS)
+<br>
+[**ExtendedUI**](https://github.com/Extended-UI) 
+<hr>
 
+<a href="">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/gettingstarted.png?raw=true" alt="Getting-Started">
+</a>
 
-Credits
-=======
- * [**AOSP**](https://android.googlesource.com)
- * [**LineageOS**](https://github.com/LineageOS)
- * [**CrDroid**](https://github.com/crdroidandroid)
- * [**AOSiP**](https://github.com/AOSiP)
- * [**DerpFest**](https://github.com/DerpLab)
- * [**Superior OS**](https://github.com/SuperiorOS)
- * [**ExtendedUI**](https://github.com/Extended-UI) 
-
-Getting started
-===============
-
-To get started with Android/Project-Sakura, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
+To get started with Android/Magnus-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+<br>
 To initialize your local repository using the LineageOS trees, use a command like this:
+
 ```
-repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 11
+repo init --depth=1 -u https://github.com/Magnus-OS/android.git -b 11
 ```
+
 Then to sync up:
 ```
-repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j `nproc`
+repo sync
 ```
-----------------
+<hr>
 
-Start the build
-=================
+<a href="">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/start-build.png?raw=true" alt="Start-the-Build">
+</a>
+<br>
+You can use your Lineage OS trees to build Magnus without any changes. 
 
-You can use your Lineage OS trees to build Sakura without any changes. 
-
-```bash
+```bash 
   . build/envsetup.sh
   lunch lineage_<devicecodename>-userdebug
   mka bacon -jx
 ```
------------------------------------------------------------------------------
-
-Sponsored by
-==============
-<p align="center"> 
-<a href="https://my.xsl.tel/"><img src="https://i.imgur.com/yOcPbYf.png" alt="xsltel" height="100" width="400"></a> 
-</p>
+<hr> 

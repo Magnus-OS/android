@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="sakura"
-           fetch="https://github.com/ProjectSakura"
+  <remote  name="magnus"
+           fetch="https://github.com/Magnus-OS"
            revision="11" />
            
-  <remote  name="Sakura-Devices"
-           fetch="https://github.com/Sakura-Devices"
-           revision="11" />
-
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
@@ -757,7 +753,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/sakura.xml" />  
+  <include name="snippets/magnus.xml" />  
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
