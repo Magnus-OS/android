@@ -44,7 +44,7 @@
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="magnus" />  
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="magnus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="magnus" /> 
-  <project path="packages/apps/MagnusSettings" name="packages_apps_MagusArea" groups="pdk-fs" remote="magnus" /> 
+  <project path="packages/apps/MagnusSettings" name="packages_apps_MagnusSettings" groups="pdk-fs" remote="magnus" /> 
   <project path="packages/apps/MagnusWidget" name="packages_apps_MagnusWidget" groups="pdk-fs" remote="magnus" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="magnus" />  
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="magnus" />  
