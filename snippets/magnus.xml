@@ -60,7 +60,7 @@
   <project path="packages/apps/MagnusWidget" name="packages_apps_MagnusWidget" groups="pdk-fs" remote="magnus" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="magnus" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="magnus" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="magnus" />
+  <!--<project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="magnus" /> -->
   <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="magnus" /> -->
   <!-- END -->
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="magnus" />
