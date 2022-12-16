@@ -1,58 +1,42 @@
-<hr>
-<div align="center">
-<a href="https://github.com/Magnus-OS">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Magnus OS"> 
-</a>
-<hr>
+<p align="center">
+<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="MagnusOS"> 
+</p>
 
-<a href="">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/credits.png?raw=true" alt="Credits">
-</a>
+Getting Started
+---------------
+To get started with Android/SpringOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
-[**ProjectSakura**](https://github.com/ProjectSakura)
-<br>
-[**AOSP**](https://android.googlesource.com)
-<br>
-[**LineageOS**](https://github.com/LineageOS)
-<br>
-[**CrDroid**](https://github.com/crdroidandroid)
-<br>
-[**AOSiP**](https://github.com/AOSiP)
-<br>
-[**DerpFest**](https://github.com/DerpLab)
-<br>
-[**Superior OS**](https://github.com/SuperiorOS)
-<br>
-[**ExtendedUI**](https://github.com/Extended-UI) 
-<hr>
-
-<a href="">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/gettingstarted.png?raw=true" alt="Getting-Started">
-</a>
-
-To get started with Android/Magnus-OS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-<br>
-To initialize your local repository using the LineageOS trees, use a command like this:
-
-```
+```bash
 repo init --depth=1 -u https://github.com/Magnus-OS/android.git -b 11
 ```
 
 Then to sync up:
-```
+```bash
 repo sync
-```
-<hr>
 
-<a href="">
-<img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/start-build.png?raw=true" alt="Start-the-Build">
-</a>
-<br>
-You can use your Lineage OS trees to build Magnus without any changes. 
-
-```bash 
-  . build/envsetup.sh
-  lunch lineage_<devicecodename>-userdebug
-  mka bacon -jx
 ```
-<hr> 
+
+Start the build
+---------------
+You can use your LineageOS trees to build MagnusOS without any changes in 3 simple steps.
+```bash
+. build/envsetup.sh
+```
+```bash
+lunch lineage_<devicecodename>-userdebug
+```
+```bash
+mka bacon
+```
+
+Credits
+---------------
+
+* [**ProjectSakura**](https://github.com/ProjectSakura)
+* [**AOSP**](https://android.googlesource.com)
+* [**LineageOS**](https://github.com/LineageOS)
+* [**CrDroid**](https://github.com/crdroidandroid)
+* [**AOSiP**](https://github.com/AOSiP)
+* [**DerpFest**](https://github.com/DerpLab)
+* [**Superior OS**](https://github.com/SuperiorOS)
+* [**ExtendedUI**](https://github.com/Extended-UI)
