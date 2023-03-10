@@ -7,7 +7,7 @@ Getting Started
 To get started with Android/SpringOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 ```bash
-repo init --depth=1 -u https://github.com/Magnus-OS/android.git -b 11
+repo init --depth=1 -u https://github.com/Magnus-OS/android.git -b 11 --git-lfs
 ```
 
 Then to sync up:
